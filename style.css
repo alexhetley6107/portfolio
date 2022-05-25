@@ -140,6 +140,7 @@ body.switchMode .header_body_inner .left .title{
 } 
 .header_body_inner .left .title span{
   color: crimson;
+  font-weight: bold;
 }
 a.btn {
   display: inline-block;
@@ -440,6 +441,9 @@ body.switchMode .contact_networks a{
   .item_btns{
     display: flex;
   }
+  .header_head .container{
+    padding: 0;
+  }
 
 }
 @media (max-width:600px){
@@ -449,5 +453,8 @@ body.switchMode .contact_networks a{
   }
   .portfolio_items .item{
     width: calc(100% - 10px);
+  }
+  .header_body_inner .left .title{
+    font-size: 30px;
   }
 }
