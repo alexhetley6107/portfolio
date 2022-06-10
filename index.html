@@ -5,19 +5,13 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="theme-color" content="rgb(30, 30, 30)" />
-		<meta
-			name="description"
-			content="Alex Bredun - Front End Developer. Portfolio "
-		/>
+		<meta name="description" content="Alex Bredun - Front End Developer. Portfolio " />
 
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link rel="stylesheet" href="style.css" />
 		<link type="image/x-icon" href="img/favicon (1).ico" rel="shortcut icon" />
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
-		/>
+		<link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" />
 		<title>Alex Bredun</title>
 	</head>
 	<body>
@@ -25,12 +19,12 @@
 			<div class="header_head">
 				<div class="container">
 					<div class="header_inner">
-						<div class="logo"><a href="#home">ALEX</a></div>
+						<div class="logo"><a>ALEX</a></div>
 						<nav>
 							<ul>
-								<li><a href="#about">About Me</a></li>
-								<li><a href="#portfolio">Portfolio</a></li>
-								<li><a href="#contact">Contacts</a></li>
+								<li class="about_link"><a>About Me</a></li>
+								<li class="portfolio_link"><a>Portfolio</a></li>
+								<li class="contacts_link"><a>Contacts</a></li>
 								<li class="switch"><a href="#"></a></li>
 							</ul>
 							<div class="burger">
@@ -41,9 +35,9 @@
 				</div>
 				<nav class="burger__menu">
 					<ul class="burger__links">
-						<li><a href="#about">about</a></li>
-						<li><a href="#portfolio">portfolio</a></li>
-						<li><a href="#contact">contacts</a></li>
+						<li class="about_burger_link"><a>about</a></li>
+						<li class="portfolio_burger_link"><a>portfolio</a></li>
+						<li class="contacts_burger_link"><a>contacts</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -51,44 +45,48 @@
 				<div class="container">
 					<div class="header_body_inner">
 						<div class="left">
-							<div class="title">
-								Hello, I`m Alex, <br /><span>Front End Developer</span>
-							</div>
-							<a href="#contact" class="btn">Contact Me</a>
+							<div class="title">Hello, I`m Alex, <br /><span>Front End Developer</span></div>
+							<a class="btn">Contact Me</a>
 						</div>
 						<div class="right"></div>
 					</div>
 				</div>
 			</div>
 		</header>
+		<div class="scrollTop">
+			<i class="bx bx-chevron-up bx-flip-horizontal" style="color: #ffffff"></i>
+		</div>
 		<section id="about">
 			<div class="container">
 				<div class="section_title" id="about">About Me</div>
 				<div class="about_text">
 					<p>My name is Aleksandr Bredun, and I am a Front End Developer.</p>
 					<p>
-						I have Experience with HTML5, CSS3, SAAS/SCSS <br />- knowledge of
-						JavaScript/JQuery <br />
-						- experience of adaptive layout <br />- Experience in creating
-						HTML-pages of the site based on design layouts <br />- site layout
-						experience <br />- skills of binding scripts to the user interface
-						that provide visualization and animation of site pages <br />-
-						skills to provide the required level of user interface and
-						interaction experience <br />- knowledge of CSS frameworks <br />-
-						knowledge of cross-browser layout <br />- knowledge of React and
-						Redux <br />- knowledge of other programming languages.<br /><br />
-						My Technology Stack: React/Redux,Redux Thunk, ES6/TypeScript,
-						SAAS/SCSS, VSCode, JSON Server,
+						I have Experience with HTML5, CSS3, SAAS/SCSS <br />- knowledge of JavaScript/JQuery
+						<br />
+						- experience of adaptive layout <br />- Experience in creating HTML-pages of the site
+						based on design layouts <br />- site layout experience <br />- skills of binding scripts
+						to the user interface that provide visualization and animation of site pages <br />-
+						skills to provide the required level of user interface and interaction experience
+						<br />- knowledge of CSS frameworks <br />- knowledge of cross-browser layout <br />-
+						knowledge of React and Redux <br />- knowledge of other programming languages.<br /><br />
+						My Technology Stack: React/Redux,Redux Thunk, ES6/TypeScript, SAAS/SCSS, VSCode, JSON
+						Server,
 					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-						nostrum minima alias, exercitationem odit atque corporis, dicta
-						explicabo vel veniam numquam. Sunt pariatur delectus placeat!
-						Placeat corrupti eos veritatis sapiente. Lorem ipsum dolor sit amet
-						consectetur adipisicing elit. Soluta nostrum minima alias,
-						exercitationem odit atque corporis, dicta explicabo vel veniam
-						numquam. Sunt pariatur delectus placeat!
-					</p>
+
+					<ul>
+						<li>React Js</li>
+						<li>TypeScript</li>
+						<li>Redux Toolkit</li>
+						<li>React Router</li>
+						<li>Axios + Fetch</li>
+						<li>React Hooks</li>
+						<li>React Context</li>
+						<li>Lodash</li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
 					<p>Take a look at my portfolio and contact me.</p>
 				</div>
 			</div>
@@ -125,16 +123,10 @@
 					>
 						<div class="item_title">ToDoList</div>
 						<div class="item_btns">
-							<a
-								class="btn_web"
-								target="_blank"
-								href="https://alexhetley6107.github.io/todolist/"
+							<a class="btn_web" target="_blank" href="https://alexhetley6107.github.io/todolist/"
 								>Web</a
 							>
-							<a
-								class="btn_git"
-								target="_blank"
-								href="https://github.com/alexhetley6107/todolist"
+							<a class="btn_git" target="_blank" href="https://github.com/alexhetley6107/todolist"
 								>Github</a
 							>
 						</div>
@@ -146,16 +138,10 @@
 					>
 						<div class="item_title">Sneakers</div>
 						<div class="item_btns">
-							<a
-								class="btn_web"
-								target="_blank"
-								href="https://alexhetley6107.github.io/sneakers/"
+							<a class="btn_web" target="_blank" href="https://alexhetley6107.github.io/sneakers/"
 								>Web</a
 							>
-							<a
-								class="btn_git"
-								target="_blank"
-								href="https://github.com/alexhetley6107/sneakers"
+							<a class="btn_git" target="_blank" href="https://github.com/alexhetley6107/sneakers"
 								>Github</a
 							>
 						</div>
@@ -209,16 +195,10 @@
 					>
 						<div class="item_title">My Portfolio</div>
 						<div class="item_btns">
-							<a
-								class="btn_web"
-								target="_blank"
-								href="https://alexhetley6107.github.io/portfolio/"
+							<a class="btn_web" target="_blank" href="https://alexhetley6107.github.io/portfolio/"
 								>Web</a
 							>
-							<a
-								class="btn_git"
-								target="_blank"
-								href="https://github.com/alexhetley6107/portfolio"
+							<a class="btn_git" target="_blank" href="https://github.com/alexhetley6107/portfolio"
 								>Github</a
 							>
 						</div>
@@ -233,11 +213,7 @@
 					<a class="contact-link" href="https://t.me/lexhetley" target="blank">
 						<i class="bx bxl-telegram"></i>
 					</a>
-					<a
-						class="contact-link"
-						href="https://uk-ua.facebook.com/"
-						target="blank"
-					>
+					<a class="contact-link" href="https://uk-ua.facebook.com/" target="blank">
 						<i class="bx bxl-facebook-square"></i>
 					</a>
 					<a
@@ -247,18 +223,21 @@
 					>
 						<i class="bx bxl-linkedin-square"></i>
 					</a>
-					<a
-						class="contact-link"
-						href="https://github.com/alexhetley6107"
-						target="blank"
-					>
+					<a class="contact-link" href="https://github.com/alexhetley6107" target="blank">
 						<i class="bx bxl-github"></i>
+					</a>
+				</div>
+				<div class="cv-wrap">
+					<a class="cv" href="http://" target="_blank">
+						<i class="bx bxs-food-menu"></i>
+						<span>My CV</span>
 					</a>
 				</div>
 			</div>
 		</section>
 		<footer class="footer">
 			<p>Copyright, 2022</p>
+			<p>Made by <a href="https://www.linkedin.com/in/aleksandr-bredun-785b8b1b9/" target="_blank">Alex Hetley</p>
 		</footer>
 		<script src="js/main.js"></script>
 	</body>
