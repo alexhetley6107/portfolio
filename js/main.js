@@ -79,3 +79,12 @@ window.onscroll = () => {
 		scrollTopBtn.style.display = 'none';
 	}
 };
+
+const makeAnim = () => {
+	const leftBlock = document.querySelector('.left');
+	const rightBlock = document.querySelector('.right');
+	leftBlock.classList.add('_active');
+	rightBlock.classList.add('_active');
+};
+
+setTimeout(makeAnim, 500);

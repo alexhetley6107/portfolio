@@ -130,6 +130,28 @@ body.switchMode .header_inner nav ul li.switch a::after {
 body.switchMode .header_body_inner .left .title {
 	color: rgb(30, 30, 30);
 }
+
+.left {
+	transition: all 0.3s ease-in-out;
+
+	transform: translateX(-100px);
+	opacity: 0;
+}
+.left._active {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.right {
+	transition: all 0.3s ease-in-out;
+
+	transform: translateX(100px);
+	opacity: 0;
+}
+.right._active {
+	transform: translateX(0);
+	opacity: 1;
+}
 .header_body {
 	position: relative;
 	width: 100%;
@@ -285,7 +307,7 @@ body.switchMode .item_title {
 /***************************************/
 .footer {
 	position: relative;
-	padding: 60px 0;
+	padding: 25px 0;
 	background-color: #333;
 }
 .footer p {
@@ -299,7 +321,7 @@ body.switchMode .item_title {
 	color: crimson;
 }
 section#contact {
-	height: 600px;
+	height: 570px;
 }
 .contact_networks {
 	display: flex;
@@ -307,7 +329,7 @@ section#contact {
 	width: 50%;
 	margin: 45px auto;
 	margin-top: 45px;
-	margin-bottom: 145px;
+	margin-bottom: 110px;
 }
 .contact_networks a {
 	display: block;
