@@ -221,13 +221,19 @@ section {
 .about_text {
 	margin-top: 45px;
 }
-.about_text p {
+.about_text p,
+.about_text ul {
 	font-size: 18px;
 	margin-bottom: 25px;
 	color: #fff;
 }
+.about_text ul {
+	margin-left: 60px;
+	list-style-type: '—    ';
+}
 body.switchMode .section_title,
-body.switchMode .about_text p {
+body.switchMode .about_text p,
+body.switchMode .about_text li {
 	color: rgb(30, 30, 30);
 }
 /******************************************/
@@ -316,7 +322,8 @@ body.switchMode .item_title {
 	font-size: 20px;
 	margin: 15px;
 }
-.footer a {
+.footer a,
+#about a {
 	text-decoration: none;
 	color: crimson;
 }
